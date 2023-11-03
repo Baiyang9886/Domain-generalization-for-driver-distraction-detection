@@ -10,7 +10,7 @@ Domain generalization method based on the CLIP model and the constraint of cente
 
 | Data acquisition system | Representative samples |
 | ---------- | -----------|
-| ![Image](https://github.com/Baiyang9886/Driver-emotion-recognition/blob/main/setup.jpg) | ![Image](https://github.com/Baiyang9886/Driver-emotion-recognition/blob/main/sample.jpg)  |
+| ![Image](https://github.com/Baiyang9886/Domain-generalization-for-driver-distraction-detection/blob/main/%E5%9B%BE%E7%89%871-3.jpg) | ![Image](https://github.com/Baiyang9886/Domain-generalization-for-driver-distraction-detection/blob/main/%E5%9B%BE%E7%89%872-1-new.jpg)  |
 | Fig. 1 The data acquisition system of the MLI-DER dataset. | Fig. 2 Sample presentation of the MLI-DER dataset. In the figure, the four columns of samples are collected under four different light intensity.  |
 
 </div>
