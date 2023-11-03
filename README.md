@@ -7,6 +7,10 @@ Domain generalization method based on the CLIP model and the constraint of cente
 -------
 
 <div align="center">
+![Image](https://github.com/Baiyang9886/Domain-generalization-for-driver-distraction-detection/blob/main/%E5%9B%BE%E7%89%871-3.jpg) 
+</div>
+
+<div align="center">
 
 | Data acquisition system | Representative samples |
 | ---------- | -----------|
