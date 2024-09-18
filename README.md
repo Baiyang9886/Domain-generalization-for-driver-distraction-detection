@@ -25,7 +25,7 @@ The dataset SAM-DD consists of two sets of data captured by two cameras simultan
 Fig. 3 Some samples from the four domains. In this figure, samples within the same row originate from the same domain, and samples in the same column share the same category.  
 
 </div>
-The data of four distinct domains has been publicly released to all researchers. The download link for the dataset is: https://drive.google.com/drive/folders/1iDa5qV8viq-MjnlWqeQkJdTJEB576YCr?usp=drive_link
+The data of four distinct domains has been publicly released to all researchers. The download link for the dataset is: https://pan.baidu.com/s/1ehIvBMKQlfgtHQ_S3zcmhg?pwd=61mm   extraction code: 61mm 
 
 ### Citation
 To be added.
