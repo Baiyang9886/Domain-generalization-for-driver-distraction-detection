@@ -15,3 +15,11 @@ In this study, we propose a domain generalization method based on the CLIP model
 Fig. 2 The schematic diagram of overcoming domain shift problem through the constraint of center loss. In this figure, (a) is the distribution of samples before the training process, and (b) is the sample distribution after sufficient training.
 
 Firstly, the center vectors of each class are initialized randomly. Then, samples from multiple different datasets are mixed for model training. During the training process, the same class of samples from different datasets are promoted to converge to the same region in the feature space by minimizing the center loss (as shown in Fig. 2(a)), which is defined as the average Euclidean distance between the feature vectors and their corresponding center vectors. In order to adapt the center vectors to better reflect the distribution of the corresponding class of samples, the center vectors are updated in the direction of reducing center loss with a certain learning rate $\alpha$ during each training iteration. After sufficient training, the same class of samples will converge within a shared region, and the samples originating from different datasets eventually adhere to approximately identical distribution in the feature space, as shown in Fig. 2(b). Therefore, the proposed domain generalization method based on center loss can effectively address the domain shift problem and significantly improve the cross-domain performance.
+
+### Dataset download link
+The dataset SAM-DD consists of two sets of data captured by two cameras simultaneously, one from the front and the other from the right side of the driver. Due to the different shooting angles between these two sets, they can be considered as two distinct domains: SAM-front and SAM-side. Additionally, there are variations in the image size, aspect ratio, and camera positions among the samples in the SAM-DD, AUC-DDD, and State-Farm datasets. Therefore, the samples in the AUC-DDD and State-Farm dataset can be considered as two independent domains. Consequently, data from four distinct domains are involved in the experiments.
+
+The data of four distinct domains has been publicly released to all researchers. The download link for the dataset is: https://drive.google.com/drive/folders/1iDa5qV8viq-MjnlWqeQkJdTJEB576YCr?usp=drive_link
+
+### Citation
+To be added.
