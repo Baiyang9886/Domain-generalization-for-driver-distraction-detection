@@ -18,7 +18,13 @@ Firstly, the center vectors of each class are initialized randomly. Then, sample
 
 ### Dataset download link
 The dataset SAM-DD consists of two sets of data captured by two cameras simultaneously, one from the front and the other from the right side of the driver. Due to the different shooting angles between these two sets, they can be considered as two distinct domains: SAM-front and SAM-side. Additionally, there are variations in the image size, aspect ratio, and camera positions among the samples in the SAM-DD, AUC-DDD, and State-Farm datasets. Therefore, the samples in the AUC-DDD and State-Farm dataset can be considered as two independent domains. Consequently, data from four distinct domains are involved in the experiments.
+<div align="center">
 
+<img src="https://github.com/Baiyang9886/Domain-generalization-for-driver-distraction-detection/blob/main/dataset_samples.jpg" width="1000px">
+
+Fig. 3 Some samples from the four domains. In this figure, samples within the same row originate from the same domain, and samples in the same column share the same category.  
+
+</div>
 The data of four distinct domains has been publicly released to all researchers. The download link for the dataset is: https://drive.google.com/drive/folders/1iDa5qV8viq-MjnlWqeQkJdTJEB576YCr?usp=drive_link
 
 ### Citation
